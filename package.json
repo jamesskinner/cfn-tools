@@ -1,6 +1,6 @@
 {
   "name": "cfn-tools",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "CLI tool and util libs for working with CloudFormation",
   "directories": {
     "lib": "lib",
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "lint:js": "eslint bin/* lib/**.js",
-    "version": "standard-version"
+    "version": "standard-version --tag-prefix ''"
   },
   "keywords": [],
   "license": "MIT",
@@ -18,7 +18,8 @@
     "esm": "^3.2.3",
     "fs-readdir-recursive": "^1.1.0",
     "js-yaml": "^3.12.0",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "standard-version": "^5.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.5.1",
